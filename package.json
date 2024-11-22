@@ -1,7 +1,7 @@
 {
   "name": "ignorex",
-  "displayName": "ignore - .gitignore Manager",
-  "icon": "media/logo.png",
+  "displayName": "gitignore Manager",
+  "icon": "media/logo2.png",
   "description": "Manage .gitignore files with ease",
   "publisher": "Shellomo",
   "version": "0.0.1",
