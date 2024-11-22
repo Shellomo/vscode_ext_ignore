@@ -1,6 +1,6 @@
 {
   "name": "ignorex",
-  "displayName": "ignore",
+  "displayName": "ignore - .gitignore Manager",
   "icon": "media/logo.png",
   "description": "Manage .gitignore files with ease",
   "publisher": "Shellomo",
