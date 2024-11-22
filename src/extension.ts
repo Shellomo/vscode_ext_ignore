@@ -4,7 +4,7 @@ import * as path from 'path';
 
 export function activate(context: vscode.ExtensionContext) {
     // Command to add a pattern to .gitignore
-    let addPattern = vscode.commands.registerCommand('ignore.addPattern', async () => {
+    let addPattern = vscode.commands.registerCommand('ignorex.addPattern', async () => {
         const pattern = await vscode.window.showInputBox({
             placeHolder: 'Enter pattern to ignore (e.g., *.log)',
             prompt: 'Add pattern to .gitignore'
@@ -35,7 +35,7 @@ export function activate(context: vscode.ExtensionContext) {
     });
 
     // Command to remove a pattern from .gitignore
-    let removePattern = vscode.commands.registerCommand('ignore.removePattern', async () => {
+    let removePattern = vscode.commands.registerCommand('ignorex.removePattern', async () => {
         const workspaceFolders = vscode.workspace.workspaceFolders;
         if (!workspaceFolders) {
             vscode.window.showErrorMessage('No workspace folder open');
@@ -73,7 +73,7 @@ export function activate(context: vscode.ExtensionContext) {
     });
 
     // Command to create a new .gitignore file with common templates
-    let createGitignore = vscode.commands.registerCommand('ignore.createGitignore', async () => {
+    let createGitignore = vscode.commands.registerCommand('ignorex.createGitignore', async () => {
         const templates = [
             'Node.js',
             'Python',

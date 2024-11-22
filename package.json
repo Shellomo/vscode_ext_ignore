@@ -1,5 +1,5 @@
 {
-  "name": "ignore",
+  "name": "ignorex",
   "displayName": "ignore",
   "icon": "media/logo.png",
   "description": "Manage .gitignore files with ease",
@@ -12,23 +12,23 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:ignore.addPattern",
-    "onCommand:ignore.removePattern",
-    "onCommand:ignore.createGitignore"
+    "onCommand:ignorex.addPattern",
+    "onCommand:ignorex.removePattern",
+    "onCommand:ignorex.createGitignore"
   ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "ignore.addPattern",
+        "command": "ignorex.addPattern",
         "title": "Ignore: Add Pattern"
       },
       {
-        "command": "ignore.removePattern",
+        "command": "ignorex.removePattern",
         "title": "Ignore: Remove Pattern"
       },
       {
-        "command": "ignore.createGitignore",
+        "command": "ignorex.createGitignore",
         "title": "Ignore: Create .gitignore"
       }
     ]
