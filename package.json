@@ -1,7 +1,7 @@
 {
   "name": "ignore",
   "displayName": "ignore",
-  "icon": "media/icon.png",
+  "icon": "media/logo.png",
   "description": "Manage .gitignore files with ease",
   "version": "0.0.1",
   "engines": {
